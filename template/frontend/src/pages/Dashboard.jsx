@@ -6,7 +6,7 @@ let [spareParts, setSpareParts] = useState([]);
 
 useEffect(() => {
   let loadParts = async () => {
-    let response = await fetch("http://localhost:1000/spare-parts");
+    let response = await fetch("http://localhost:5000/spare-parts");
     let data = await response.json();
     setSpareParts(data);
   };

@@ -12,7 +12,8 @@ SpId INT PRIMARY KEY AUTO_INCREMENT,
 Name Varchar(200) NOT NULL,
 Quantity INT NOT NULL,
 UnitPrice INT NOT NULL,
-TotalPrice INT NOT NULL
+TotalPrice INT NOT NULL,
+Category VARCHAR(100) NOT NULL
 
 );
 

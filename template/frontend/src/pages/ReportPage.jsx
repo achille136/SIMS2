@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import DashboardLayout from "../layouts/DashboardLayout";
 
-const DAILY_API = "http://localhost:1000/report/daily-stockout";
-const STATUS_API = "http://localhost:1000/report/stock-status";
+const DAILY_API = "http://localhost:5000/report/daily-stockout";
+const STATUS_API = "http://localhost:5000/report/stock-status";
 
 export default function Reports() {
   const [dailyReports, setDailyReports] = useState([]);

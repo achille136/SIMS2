@@ -1,0 +1,22 @@
+{
+  "name": "create-stock",
+  "version": "1.0.3",
+  "description": "Stock project generator",
+  "bin": {
+    "create-stock": "./index.js"
+  },
+  "files": [
+    "index.js",
+    "template"
+  ],
+  "keywords": [
+    "starter",
+    "template",
+    "stock"
+  ],
+  "author": "Achille",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^11.3.5"
+  }
+}
